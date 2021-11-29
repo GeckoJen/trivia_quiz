@@ -15,7 +15,7 @@ body {
     display: none;
 }
 
-#numberQuestions, #categoryQuestions, option {
+#numberQuestions, #categoryQuestions, #difficultyLevel, option {
     line-height: 1.5;
     display: block;
     margin: 20px auto;

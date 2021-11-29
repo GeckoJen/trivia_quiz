@@ -15,21 +15,37 @@
     <header>
       <h1>Trivia Quiz!</h1>
       <div id="disappear">
-      <label for="numberQuestions">How many questions would you like to answer?</label>
-      <input id="numberQuestions" type="number" min="0" max="50" step="1" />
-      <label for="categoryQuestions">What category of questions would you like?</label>
-      <select id="categoryQuestions">
-        <option value="General Knowledge">General Knowledge</option>
-        <option value="Books">Books</option>
-        <option value="Film">Film</option>  
-        <option value="Television">Television</option>
-        <option value="Science & Nature">Science & Nature</option>
-        <option value="Animals">Animals</option>
-      </select>
-      <button id="getQuestions">Get questions</button>
-      <p class="startText">Make your choices above, click get questions, then click start to begin!</p>
-      <button class="startText" id="start">Start</button>
-    </div>
+        <label for="numberQuestions"
+          >How many questions would you like to answer?</label
+        >
+        <input id="numberQuestions" type="number" min="0" max="50" step="1" />
+        <label for="categoryQuestions"
+          >What category of questions would you like?</label
+        >
+        <select id="categoryQuestions">
+          <option value="General Knowledge">General Knowledge</option>
+          <option value="Books">Books</option>
+          <option value="Film">Film</option>
+          <option value="Television">Television</option>
+          <option value="Science & Nature">Science & Nature</option>
+          <option value="Animals">Animals</option>
+        </select>
+        <label for="difficultyLevel"
+          >Select difficulty level:</label
+        >
+        <select id="difficultyLevel">
+          <option value="Easy">Easy</option>
+          <option value="Medium">Medium</option>
+          <option value="Hard">Hard</option>
+          <option value="Mix">Mixture</option>
+        </select>
+        <button id="getQuestions">Get questions</button>
+        <p class="startText">
+          Make your choices above, click get questions, then click start to
+          begin!
+        </p>
+        <button class="startText" id="start">Start</button>
+      </div>
     </header>
 
     <div class="questionBlock">
@@ -43,7 +59,9 @@
     </div>
     <div id="finalScoreBox">
       <p id="finalText"></p>
-      <button id="playAgain">Think you can do better?<br><br>Click here to play again</button>
+      <button id="playAgain">
+        Think you can do better?<br /><br />Click here to play again
+      </button>
     </div>
     <script src="main.js"></script>
   </body>
