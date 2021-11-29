@@ -1,0 +1,102 @@
+* {
+    font-family: 'Outfit', sans-serif;
+    
+text-align: center;
+
+}
+
+body {
+    height: 1000px;
+    
+}
+
+#start {
+    margin: 0 auto;
+    display: none;
+}
+
+#numberQuestions, #categoryQuestions, option {
+    line-height: 1.5;
+    display: block;
+    margin: 20px auto;
+}
+
+
+
+.questionBlock {
+    display: none;
+     
+}
+
+h1 {
+    font-size: 3.5rem;
+    margin: 30px;
+    
+
+}
+
+
+.question {
+    width: 70%;
+    max-height: 100px;
+    background-color: rgb(238, 248, 145);
+    margin: 10px auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    }
+
+
+.answer {
+    width: 70%;
+    max-height: 100px;
+    background-color: rgb(145, 210, 248);
+    margin: 10px auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 1.5rem;
+}
+
+#score {
+    width: 70%;
+    max-height: 100px;
+    background-color: rgb(193, 163, 211);
+    
+    margin: 10px auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+button {
+    min-width: 100px;
+    min-height: 50px;
+    background-color:rgb(238, 248, 145);
+    display: block;
+    border-radius: 10px;
+    font-size: 1rem;
+    margin: 0 auto;
+}
+
+#finalScoreBox {
+    
+    display: none;
+}
+
+#finalText {
+    background-color: rgb(193, 163, 211);
+    border: 5px inset rgb(53, 125, 167);
+    border-radius: 10px;
+    width: 30%;
+    padding: 40px;
+    margin: 20px auto;
+    font-size: 1.5rem;
+
+}
+
+#playAgain {
+    padding: 10px;
+
+}
