@@ -100,3 +100,9 @@ button {
     padding: 10px;
 
 }
+
+@media only screen and (max-width: 480px) {
+	.question, .answer, #score {
+		font-size: 1rem;
+		}
+	}
